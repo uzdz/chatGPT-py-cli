@@ -3,6 +3,7 @@ import openai
 model_engine = "gpt-3.5-turbo"  # ChatGPT 模型
 conversation_history = []
 
+
 # 定义获取聊天响应的函数
 def get_chat_response(prompt):
     # 将用户消息压入暂存区
